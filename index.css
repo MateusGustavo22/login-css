@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-image: url('./background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main {
+  max-width: 1000px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  justify-content: right;
+}
+
+.login-container {
+  max-width: 500px;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 36px 26px 36px 26px;
+  background-color: rgba(7, 11, 15, 0.137);
+  backdrop-filter: blur(10px); 
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container h1 {
+  color: white;
+  text-align: center;
+  font-size: 36px;
+}
+
+.input-area {
+  padding: 1px;
+  display: flex;
+  flex-direction: inline;
+  border: none;
+  border-bottom: 4px solid white;
+  margin: 10px 0px 4px 0px;
+}
+
+.login-area {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.icon {
+  width: 26px;
+  height: 26px;
+  margin: 10px;
+}
+
+.icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.svg {
+  fill: white;
+}
+
+.login-container input {
+  width: 100%;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 16px;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.login-container input::placeholder {
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(212, 210, 210);
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  background-color: #C82657;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #CA5A90;
+}
+
+.miniText {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #D1D0D0;
+  cursor: pointer;
+}
+
+.create {
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 16px;
+  color: #D1D0D0;
+}
